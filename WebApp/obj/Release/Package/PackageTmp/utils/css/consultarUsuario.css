@@ -1,7 +1,0 @@
-﻿#wrapper{width:900px;margin:0 auto;border:1px solid #ccc;font-family:Arial;overflow:hidden;border-radius:5px 5px 0px 0px;}
-#wrapper .linea{float:left;overflow:hidden;width:900px;}
-#wrapper .linea .titulo{background-color:#ccc;color:White;padding:5px 0px 5px 0px;font-weight:700;}
-#wrapper .linea .nombre{width:225px;float:left;overflow:hidden;text-align:center;}
-#wrapper .linea .apellidos{width:225px;float:left;overflow:hidden;text-align:center;}
-#wrapper .linea .estado{width:225px;float:left;overflow:hidden;text-align:center;}
-#wrapper .linea .registro{width:225px;float:left;overflow:hidden;text-align:center;}
