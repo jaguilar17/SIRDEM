@@ -71,6 +71,7 @@
     <Compile Include="DtoUsuario.cs" />
     <Compile Include="Enums.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="test-at.cs" />
     <Compile Include="test-ja.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
