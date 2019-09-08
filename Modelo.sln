@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{1E5B77AC-249E-406E-AAD7-54B382FC3D77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comunes", "Comunes\Comunes.csproj", "{0A59BCDA-8372-43A4-A3B1-66F3AFC55A00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTR", "CTR\CTR.csproj", "{BBF465DC-6AD7-4A17-B654-9FB100F27818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{211CB14B-A3AB-44FC-B626-5C98C9663105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{6C7780A3-F603-4DB3-A3B4-5075C6D3F848}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CalendarSitev1.1", "..\CalendarSitev1.1\", "{55A38EA0-079D-46B8-9261-11FACD9BC831}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/CalendarSitev1.1"
+		Debug.AspNetCompiler.PhysicalPath = "..\CalendarSitev1.1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CalendarSitev1.1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CalendarSitev1.1"
+		Release.AspNetCompiler.PhysicalPath = "..\CalendarSitev1.1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CalendarSitev1.1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3914"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E5B77AC-249E-406E-AAD7-54B382FC3D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5B77AC-249E-406E-AAD7-54B382FC3D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5B77AC-249E-406E-AAD7-54B382FC3D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5B77AC-249E-406E-AAD7-54B382FC3D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A59BCDA-8372-43A4-A3B1-66F3AFC55A00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A59BCDA-8372-43A4-A3B1-66F3AFC55A00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A59BCDA-8372-43A4-A3B1-66F3AFC55A00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A59BCDA-8372-43A4-A3B1-66F3AFC55A00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBF465DC-6AD7-4A17-B654-9FB100F27818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF465DC-6AD7-4A17-B654-9FB100F27818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF465DC-6AD7-4A17-B654-9FB100F27818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF465DC-6AD7-4A17-B654-9FB100F27818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211CB14B-A3AB-44FC-B626-5C98C9663105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211CB14B-A3AB-44FC-B626-5C98C9663105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211CB14B-A3AB-44FC-B626-5C98C9663105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211CB14B-A3AB-44FC-B626-5C98C9663105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7780A3-F603-4DB3-A3B4-5075C6D3F848}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7780A3-F603-4DB3-A3B4-5075C6D3F848}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7780A3-F603-4DB3-A3B4-5075C6D3F848}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7780A3-F603-4DB3-A3B4-5075C6D3F848}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55A38EA0-079D-46B8-9261-11FACD9BC831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A38EA0-079D-46B8-9261-11FACD9BC831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A38EA0-079D-46B8-9261-11FACD9BC831}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A38EA0-079D-46B8-9261-11FACD9BC831}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

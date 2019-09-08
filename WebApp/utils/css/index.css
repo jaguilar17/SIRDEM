@@ -1,0 +1,39 @@
+﻿body{background-color:#FAFAFA;font-family:Arial;}
+#wrapper{margin:0 auto;width:950px;}
+#cabecera{float:left;width:950px;margin-top:20px;}
+#logo{float:left;height:60px;width:261px;}
+
+#wrapperLogin{float:right;height:60px;overflow:hidden;font-size:11px;width:260px;margin-top:-10px;}
+#icon{float:right;cursor:pointer;margin-right:10px;}
+#form{float:left;width:230px;position:absolute;margin-left:35px;display:none;}
+#form .linea{float:left;overflow:hidden;width:230px;}
+#form .linea .campo{float:left;overflow:hidden;width:70px;margin-top:5px;text-align:right;}
+#form .linea input[type="text"]{float:left;overflow:hidden;}
+#form .linea input[type="submit"]{float:right;overflow:hidden;}
+
+
+#wrapMenu{background-image:url(../images/nav-tail.gif);background-repeat:repeat-x;border-radius:5px;box-shadow:0px 0px 1px #ccc;border:1px solid #ccc;float:left;width:949px;margin-top:20px;margin-bottom:20px;}
+#menu {float:left;margin:0px;padding:10px;width:926px;border-radius:5px;font-size:15px;}
+
+#menu > li{color:#4B4B4B;float:left;list-style:none;margin:0px;padding:7px 15px;border-radius:5px;border:1px solid #fff;margin-right:25px;width:80px;text-align:center;position:relative;}
+#menu > li:hover{background-color:#F3F3F3;background-position: 0 0;border-color:#C9C9C9;cursor:pointer;}
+
+#menu > li > ul{display:none;position:absolute;padding:0px;left:0px;border:1px solid #C9C9C9;top:33px;background-color:#F8F8F8;width:120px;border-radius:5px;padding:7px;margin:0px;z-index:100;}
+#menu > li > ul > li{list-style:none;padding:5px;color:#7B7B7B;text-align:left;}
+#menu > li > ul > li:hover{color:#EF7100;}
+
+
+#menu .wrapBuscar{float:right;padding:0px;border:0px;overflow:hidden;margin-top:3px;width:153px;}
+#txtBuscar{padding:5px;border:1px solid #ccc;border-radius:2px;}
+
+.inactivo{color:#ccc;font-style:italic;}
+
+#cuerpo{float:left;overflow:hidden;overflow:hidden;}
+#slide{background-color:#C9C9C9;border-radius:5px;}
+#slide .item{width:950px;height:380px;border-radius:5px;}
+#slide .item img{border-radius:5px;}
+.bx-wrapper{border:1px solid #ccc;border-radius:5px;overflow:hidden;background-color:#fff;}
+.bx-pager{width:100%;background-color:#fff;float:left;width:200px;margin-left:20px;margin-bottom:10px}
+.bx-pager .pager-link{float:left;width:10px;height:10px;margin-left:3px;border:2px solid #ccc;border-radius:8px;}
+.bx-pager .pager-active{background-color:#188ABA;border:2px solid #188ABA;}
+

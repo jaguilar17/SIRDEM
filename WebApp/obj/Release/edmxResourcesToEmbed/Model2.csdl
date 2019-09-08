@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BDAKDv2Model" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="BDAKDv2Entities" p1:LazyLoadingEnabled="true">
+    <FunctionImport Name="Usp_Grafica_EctomorgiaxJugador" ReturnType="Collection(BDAKDv2Model.Usp_Grafica_EctomorgiaxJugador_Result)" />
+    <FunctionImport Name="Usp_Grafica_EndomorfiaxJugador" ReturnType="Collection(BDAKDv2Model.Usp_Grafica_EndomorfiaxJugador_Result)" />
+    <FunctionImport Name="Usp_Grafica_MesomorfiaxJugador" ReturnType="Collection(BDAKDv2Model.Usp_Grafica_MesomorfiaxJugador_Result)" />
+    <FunctionImport Name="Usp_Grafica_ResultadosAll" ReturnType="Collection(BDAKDv2Model.Usp_Grafica_ResultadosAll_Result)" />
+  </EntityContainer>
+  <ComplexType Name="Usp_Grafica_EctomorgiaxJugador_Result">
+    <Property Type="DateTime" Name="fechaControl" Nullable="true" />
+    <Property Type="Decimal" Name="ectomorfia" Nullable="true" Precision="18" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="Usp_Grafica_EndomorfiaxJugador_Result">
+    <Property Type="DateTime" Name="fechaControl" Nullable="true" />
+    <Property Type="Decimal" Name="endomorfia" Nullable="true" Precision="18" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="Usp_Grafica_MesomorfiaxJugador_Result">
+    <Property Type="DateTime" Name="fechaControl" Nullable="true" />
+    <Property Type="Decimal" Name="mesomorfia" Nullable="true" Precision="18" Scale="2" />
+  </ComplexType>
+  <ComplexType Name="Usp_Grafica_ResultadosAll_Result">
+    <Property Type="Int32" Name="Cantidad" Nullable="true" />
+    <Property Type="String" Name="name" Nullable="true" MaxLength="500" />
+  </ComplexType>
+</Schema>

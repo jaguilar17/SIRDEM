@@ -1,0 +1,10 @@
+C:\Users\HUGO\Downloads\Modelo_1\Comunes\bin\Release\Comunes.dll
+C:\Users\HUGO\Downloads\Modelo_1\Comunes\bin\Release\Comunes.pdb
+C:\Users\HUGO\Downloads\Modelo_1\Comunes\obj\Release\Comunes.csprojResolveAssemblyReference.cache
+C:\Users\HUGO\Downloads\Modelo_1\Comunes\obj\Release\Comunes.dll
+C:\Users\HUGO\Downloads\Modelo_1\Comunes\obj\Release\Comunes.pdb
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Release\Comunes.dll
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Release\Comunes.pdb
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Release\Comunes.csprojResolveAssemblyReference.cache
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Release\Comunes.dll
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Release\Comunes.pdb

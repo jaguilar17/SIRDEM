@@ -1,0 +1,68 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="plantillaInterna.master.cs" Inherits="WebApp.appPlantilla.plantillaInterna" %>
+
+<%@ Register src="../appControles/wucMenu.ascx" tagname="wucMenu" tagprefix="uc1" %>
+<%@ Register src="../appControles/wucModulos.ascx" tagname="wucModulos" tagprefix="uc2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   
+    <title>AKDSystem</title>
+
+    <link href="<%= ResolveClientUrl("~/utils/css/reset.css") %>" rel="stylesheet" />
+    <link href="<%= ResolveClientUrl("~/utils/js/jquery/bootstrap/css/bootstrap.min.css") %>"  rel="stylesheet" />
+    <link href="<%= ResolveClientUrl("~/utils/css/plantillaInterna.css") %>"  rel="stylesheet" />
+
+    <script src="<%= ResolveClientUrl("~/utils/js/jquery/jQuery1.8.1.js") %>" type="text/javascript"></script>
+    <script src="<%= ResolveClientUrl("~/utils/js/jquery/bootstrap/js/bootstrap.min.js") %>" type="text/javascript"></script>
+    <script src="<%= ResolveClientUrl("~/utils/js/jsPlantillaInterna.js") %>" type="text/javascript"></script>
+         
+     <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <asp:PlaceHolder ID="PlaceHolder2" runat="server">  
+    </asp:PlaceHolder>
+   
+    <style type="text/css">
+        #iFVentana
+        {
+            height: 7000px;
+            width: 1100px;
+            margin-right: 0px;
+        }
+        #wrapperGeneralForm
+        {
+            height: 1600px;
+            width: 1500px;
+        }
+        #wrapIframe
+        {
+            height: 7000px;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="wrapperPrincipal">
+        <uc1:wucMenu ID="wucMenu1" runat="server" />
+        <div id="wrapperGeneralForm">
+            <uc2:wucModulos ID="wucModulos1" runat="server" />        
+            <div id="wrapIframe">
+                <div id="breadcrumb">Bienvenido, <asp:Literal runat="server" ID="ltlUsuarioNombre"></asp:Literal></div>
+                <iframe runat="server" id="iFVentana" clientidmode="Static" 
+                    frameborder="0" scrolling="no" >                
+                 
+                </iframe>
+                
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        
+    </div>
+    </form>
+</body>
+</html>

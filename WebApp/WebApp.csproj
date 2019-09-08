@@ -1,0 +1,1059 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E5B77AC-249E-406E-AAD7-54B382FC3D77}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApp</RootNamespace>
+    <AssemblyName>WebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.60919.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\tpppp\Progra_BD\Progra_4entre_Calenda_\CalendarSitev1.1\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\..\..\alhux\Librerias Java\Libreria C#\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administrar_Prueba.aspx" />
+    <Content Include="APPAKD.csproj">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="appControles\wucIframe.ascx" />
+    <Content Include="appControles\wucLoading.ascx" />
+    <Content Include="appControles\wucMenu.ascx" />
+    <Content Include="appControles\wucModulos.ascx" />
+    <Content Include="Asistencia.aspx" />
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\css\bootstrap-theme.css" />
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\css\bootstrap-theme.min.css" />
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\css\bootstrap.css" />
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\css\bootstrap.min.css" />
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\js\bootstrap.js" />
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\js\bootstrap.min.js" />
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\js\npm.js" />
+    <Content Include="Calendario\css\cupertino\images\bckMenu.jpg" />
+    <Content Include="Calendario\css\cupertino\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+    <Content Include="Calendario\css\cupertino\images\ui-bg_flat_15_cd0a0a_40x100.png" />
+    <Content Include="Calendario\css\cupertino\images\ui-bg_glass_100_e4f1fb_1x400.png" />
+    <Content Include="Calendario\css\cupertino\images\ui-bg_glass_50_3baae3_1x400.png" />
+    <Content Include="Calendario\css\cupertino\images\ui-bg_glass_80_d7ebf9_1x400.png" />
+    <Content Include="Calendario\css\cupertino\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+    <Content Include="Calendario\css\cupertino\images\ui-bg_highlight-hard_70_000000_1x100.png" />
+    <Content Include="Calendario\css\cupertino\images\ui-bg_highlight-soft_100_deedf7_1x100.png" />
+    <Content Include="Calendario\css\cupertino\images\ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+    <Content Include="Calendario\css\cupertino\images\ui-icons_2694e8_256x240.png" />
+    <Content Include="Calendario\css\cupertino\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Calendario\css\cupertino\images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="Calendario\css\cupertino\images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="Calendario\css\cupertino\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Calendario\css\cupertino\images\user_avatar.png" />
+    <Content Include="Calendario\css\cupertino\jquery-ui-1.7.3.custom.css" />
+    <Content Include="Calendario\css\styles.css" />
+    <Content Include="Calendario\css\style_rep.css" />
+    <Content Include="Calendario\css\__jquery.ui.datepicker.css" />
+    <Content Include="Calendario\frm_Calendario.aspx" />
+    <Content Include="Calendario\fullcalendar\fullcalendar.css" />
+    <Content Include="Calendario\fullcalendar\fullcalendar.min.js" />
+    <Content Include="Calendario\jquery\jquery-1.3.2.min.js" />
+    <Content Include="Calendario\jquery\jquery-ui-1.7.3.custom.min.js" />
+    <Content Include="Calendario\jquery\jquery-ui-timepicker-addon-0.6.2.min.js" />
+    <Content Include="Calendario\jquery\jquery.qtip-1.0.0-rc3.min.js" />
+    <Content Include="Calendario\js\Func_Espec\fun_UsuarioPersona.js" />
+    <Content Include="Calendario\js\fun_general.js" />
+    <Content Include="Calendario\js\scripts.js" />
+    <Content Include="Calendario\scripts\calendarscript.js" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\css\bootstrap-theme.css" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\css\bootstrap-theme.min.css" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\css\bootstrap.css" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\css\bootstrap.min.css" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\js\bootstrap.js" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\js\bootstrap.min.js" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\js\npm.js" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\js\npm.min.js" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\css\bootstrap-clockpicker.min.css" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\css\bootstrap-theme.css" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\css\bootstrap-theme.min.css" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\css\bootstrap.css" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\css\bootstrap.min.css" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\js\bootstrap-clockpicker.js" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\js\bootstrap.js" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\js\bootstrap.min.js" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\js\html5shiv.js" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\js\html5shiv.min.js" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\js\modernizr.2.8.3.js" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\js\modernizr.2.8.3.min.js" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\js\npm.js" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\js\respond.min.js" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\css\font-awesome.css" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\css\font-awesome.min.css" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="Calendario\Tools\jquery.countdown-2.0.4\jquery.countdown.js" />
+    <Content Include="Calendario\Tools\jquery.countdown-2.0.4\jquery.countdown.min.js" />
+    <Content Include="Calendario\Tools\jquery\jquery-1.9.1.js" />
+    <Content Include="Calendario\Tools\jquery\jquery-1.9.1.min.js" />
+    <Content Include="Calendario\Tools\jquery\jquery.easing.1.3.js" />
+    <Content Include="Calendario\Tools\jquery\jquery.easing.1.3.min.js" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\images\animated-overlay.gif" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\images\ui-bg_diagonals-thick_75_f3d8d8_40x40.png" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\images\ui-bg_dots-small_65_a6a6a6_2x2.png" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\images\ui-bg_flat_0_333333_40x100.png" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\images\ui-bg_flat_65_ffffff_40x100.png" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\images\ui-bg_glass_55_fbf8ee_1x400.png" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\images\ui-bg_highlight-hard_100_eeeeee_1x100.png" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\images\ui-bg_highlight-hard_100_f6f6f6_1x100.png" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\images\ui-bg_highlight-soft_15_cc0000_1x100.png" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\images\ui-icons_004276_256x240.png" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\jquery-ui.custom.js" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\jquery-ui.custom.min.js" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\jquery.ui.custom.css" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\jquery.ui.custom.min.css" />
+    <Content Include="Calendario\Tools\jquery\ui\datepickerLocale\datepicker-es.js" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\common\grab.cur" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\common\grab.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\common\grabbing.cur" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\common\grabbing.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\common\loading-1-dark.gif" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\common\loading-1.gif" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\common\loading-2-dark.gif" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\common\loading-2-light.gif" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\common\loading-2.gif" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\common\video-close-btn.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\masterslider.main.css" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\masterslider.main.min.css" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\ms-skin-sample.css" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\ms-skin-sample.min.css" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\black-skin-1-retina.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\black-skin-1.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\black-skin-2-retina.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\black-skin-2.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\contrast-skin-retina.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\contrast-skin.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\light-skin-1-retina.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\light-skin-1.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\light-skin-2-retina.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\light-skin-2.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\light-skin-3-retina.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\light-skin-3.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\light-skin-4-retina.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\light-skin-4.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\light-skin-5-retina.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\light-skin-5.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\light-skin-6-retina.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\light-skin-6.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\metro-skin-retina.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\css\skins\metro-skin.png" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\js\masterslider.js" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\js\masterslider.min.js" />
+    <Content Include="Calendario\Tools\select2\css\select2-spinner.gif" />
+    <Content Include="Calendario\Tools\select2\css\select2.css" />
+    <Content Include="Calendario\Tools\select2\css\select2.min.css" />
+    <Content Include="Calendario\Tools\select2\css\select2.png" />
+    <Content Include="Calendario\Tools\select2\css\select2x2.png" />
+    <Content Include="Calendario\Tools\select2\js\select2.js" />
+    <Content Include="Calendario\Tools\select2\js\select2.min.js" />
+    <Content Include="contenido\antropometria\frm_Antropometria.aspx" />
+    <Content Include="contenido\antropometria\frm_AntropometriaRegistro.aspx" />
+    <Content Include="contenido\antropometria\frm_ResultadosAntropometria.aspx" />
+    <Content Include="contenido\antropometria\frm_VerResultadosControles.aspx" />
+    <Content Include="contenido\antropometria\frm_VerTodosJugadores.aspx" />
+    <Content Include="contenido\Bienvenida.aspx" />
+    <Content Include="contenido\equipo\frm_EquipoRegistrar.aspx" />
+    <Content Include="contenido\equipo\frm_VerPlantilla.aspx" />
+    <Content Include="contenido\jugador\frm_JugadorRegistrar.aspx" />
+    <Content Include="contenido\personal\frm_PersonaRegistrar.aspx" />
+    <Content Include="contenido\principal.aspx" />
+    <Content Include="contenido\pruebas\AdmPruebas.aspx" />
+    <Content Include="contenido\pruebas\frm_JugadorConvocatoriaRegistrar.aspx" />
+    <Content Include="contenido\reportes\WebFormReporte.aspx" />
+    <Content Include="contenido\temporada\frm_TemporadaRegistrar.aspx" />
+    <Content Include="css\styles.css" />
+    <Content Include="css\style_rep.css" />
+    <Content Include="data1\images\cami_1.jpg" />
+    <Content Include="data1\images\cami_2.jpg" />
+    <Content Include="data1\images\equipo_cat_1998.jpg" />
+    <Content Include="data1\images\equipo_cat_2002.jpg" />
+    <Content Include="data1\images\equipo_cat_2002_v2.jpg" />
+    <Content Include="data1\tooltips\cami_1.jpg" />
+    <Content Include="data1\tooltips\cami_2.jpg" />
+    <Content Include="data1\tooltips\equipo_cat_1998.jpg" />
+    <Content Include="data1\tooltips\equipo_cat_2002.jpg" />
+    <Content Include="data1\tooltips\equipo_cat_2002_v2.jpg" />
+    <Content Include="engine1\jquery.js" />
+    <Content Include="engine1\script.js" />
+    <Content Include="engine1\style.css" />
+    <Content Include="engine1\style.mod.css" />
+    <Content Include="engine1\wowslider.js" />
+    <Content Include="engine1\wowslider.mod.js" />
+    <Content Include="exprem.aspx" />
+    <Content Include="frmGraficaEctomorfiaxJugador.aspx" />
+    <Content Include="frm_GraficaEndomorfiaxJugador.aspx" />
+    <Content Include="frm_GraficaMesomorfiaxJugador.aspx" />
+    <Content Include="frm_Grafica_ResultadosAll.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="highcharts\exporting.js" />
+    <Content Include="highcharts\highcharts.js" />
+    <Content Include="highcharts\jquery.js" />
+    <Content Include="HorarioMenu.aspx" />
+    <Content Include="imagenes\cami_1.jpg" />
+    <Content Include="imagenes\cami_2.jpg" />
+    <Content Include="imagenes\equipo_cat_1998.jpg" />
+    <Content Include="imagenes\equipo_cat_2002.jpg" />
+    <Content Include="imagenes\equipo_cat_2002_v2.jpg" />
+    <Content Include="imagenes\im1.jpg" />
+    <Content Include="Images\Blue_Downloads.jpg" />
+    <Content Include="Images\calendar-icons.png" />
+    <Content Include="Images\cerrar.jpg" />
+    <Content Include="Images\flecha-izq.png" />
+    <Content Include="Images\gtk-edit.png" />
+    <Content Include="Images\guardar.jpg" />
+    <Content Include="Images\Upload_Folder.jpg" />
+    <Content Include="index.html" />
+    <Content Include="InformeFinal.aspx" />
+    <Content Include="Inicio.aspx" />
+    <Content Include="js\Func_Espec\fun_Categoria.js" />
+    <Content Include="js\Func_Espec\fun_Equipo.js" />
+    <Content Include="js\Func_Espec\fun_Jugador.js" />
+    <Content Include="js\Func_Espec\fun_Persona.js" />
+    <Content Include="js\Func_Espec\fun_Temporada.js" />
+    <Content Include="js\Func_Espec\fun_Torneo.js" />
+    <Content Include="js\Func_Espec\fun_torneoxequipo.js" />
+    <Content Include="js\Func_Espec\fun_UsuarioPersona.js" />
+    <Content Include="js\fun_general.js" />
+    <Content Include="js\fun_pago.js" />
+    <Content Include="js\scripts.js" />
+    <Content Include="ModificarAsistencia.aspx" />
+    <Content Include="muni.jpg" />
+    <Content Include="NotaRendimientoDesempeño.aspx" />
+    <Content Include="NotaRendimientoFisico.aspx" />
+    <Content Include="PruebaDesempeño.aspx" />
+    <Content Include="PruebaFisica.aspx" />
+    <Content Include="PruebaPsicologica.aspx" />
+    <Content Include="Sede2.aspx" />
+    <Content Include="Tools\Bootstrap\3.3.4\css\bootstrap-theme.css" />
+    <Content Include="Tools\Bootstrap\3.3.4\css\bootstrap-theme.min.css" />
+    <Content Include="Tools\Bootstrap\3.3.4\css\bootstrap.css" />
+    <Content Include="Tools\Bootstrap\3.3.4\css\bootstrap.min.css" />
+    <Content Include="Tools\Bootstrap\3.3.4\js\bootstrap.js" />
+    <Content Include="Tools\Bootstrap\3.3.4\js\bootstrap.min.js" />
+    <Content Include="Tools\Bootstrap\3.3.4\js\npm.js" />
+    <Content Include="Tools\Bootstrap\3.3.4\js\npm.min.js" />
+    <Content Include="Tools\Bootstrap\3.3.5\css\bootstrap-clockpicker.min.css" />
+    <Content Include="Tools\Bootstrap\3.3.5\css\bootstrap-theme.css" />
+    <Content Include="Tools\Bootstrap\3.3.5\css\bootstrap-theme.min.css" />
+    <Content Include="Tools\Bootstrap\3.3.5\css\bootstrap.css" />
+    <Content Include="Tools\Bootstrap\3.3.5\css\bootstrap.min.css" />
+    <Content Include="Tools\Bootstrap\3.3.5\js\bootstrap-clockpicker.js" />
+    <Content Include="Tools\Bootstrap\3.3.5\js\bootstrap.js" />
+    <Content Include="Tools\Bootstrap\3.3.5\js\bootstrap.min.js" />
+    <Content Include="Tools\Bootstrap\3.3.5\js\html5shiv.js" />
+    <Content Include="Tools\Bootstrap\3.3.5\js\html5shiv.min.js" />
+    <Content Include="Tools\Bootstrap\3.3.5\js\modernizr.2.8.3.js" />
+    <Content Include="Tools\Bootstrap\3.3.5\js\modernizr.2.8.3.min.js" />
+    <Content Include="Tools\Bootstrap\3.3.5\js\npm.js" />
+    <Content Include="Tools\Bootstrap\3.3.5\js\respond.min.js" />
+    <Content Include="Tools\dataTable\dataTables.bootstrap.min.css" />
+    <Content Include="Tools\dataTable\dataTables.bootstrap.min.js" />
+    <Content Include="Tools\dataTable\jquery.dataTables.min.js" />
+    <Content Include="Tools\font-awesome\4.3.0\css\font-awesome.css" />
+    <Content Include="Tools\font-awesome\4.3.0\css\font-awesome.min.css" />
+    <Content Include="Tools\jquery.countdown-2.0.4\jquery.countdown.js" />
+    <Content Include="Tools\jquery.countdown-2.0.4\jquery.countdown.min.js" />
+    <Content Include="Tools\jquery\jquery-1.9.1.js" />
+    <Content Include="Tools\jquery\jquery-1.9.1.min.js" />
+    <Content Include="Tools\jquery\jquery.easing.1.3.js" />
+    <Content Include="Tools\jquery\jquery.easing.1.3.min.js" />
+    <Content Include="Tools\jquery\ui\1.10.4\images\animated-overlay.gif" />
+    <Content Include="Tools\jquery\ui\1.10.4\images\ui-bg_diagonals-thick_75_f3d8d8_40x40.png" />
+    <Content Include="Tools\jquery\ui\1.10.4\images\ui-bg_dots-small_65_a6a6a6_2x2.png" />
+    <Content Include="Tools\jquery\ui\1.10.4\images\ui-bg_flat_0_333333_40x100.png" />
+    <Content Include="Tools\jquery\ui\1.10.4\images\ui-bg_flat_65_ffffff_40x100.png" />
+    <Content Include="Tools\jquery\ui\1.10.4\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Tools\jquery\ui\1.10.4\images\ui-bg_glass_55_fbf8ee_1x400.png" />
+    <Content Include="Tools\jquery\ui\1.10.4\images\ui-bg_highlight-hard_100_eeeeee_1x100.png" />
+    <Content Include="Tools\jquery\ui\1.10.4\images\ui-bg_highlight-hard_100_f6f6f6_1x100.png" />
+    <Content Include="Tools\jquery\ui\1.10.4\images\ui-bg_highlight-soft_15_cc0000_1x100.png" />
+    <Content Include="Tools\jquery\ui\1.10.4\images\ui-icons_004276_256x240.png" />
+    <Content Include="Tools\jquery\ui\1.10.4\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Tools\jquery\ui\1.10.4\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Tools\jquery\ui\1.10.4\jquery-ui.custom.js" />
+    <Content Include="Tools\jquery\ui\1.10.4\jquery-ui.custom.min.js" />
+    <Content Include="Tools\jquery\ui\1.10.4\jquery.ui.custom.css" />
+    <Content Include="Tools\jquery\ui\1.10.4\jquery.ui.custom.min.css" />
+    <Content Include="Tools\jquery\ui\datepickerLocale\datepicker-es.js" />
+    <Content Include="Tools\masterslider\2.18.2\css\common\grab.cur" />
+    <Content Include="Tools\masterslider\2.18.2\css\common\grab.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\common\grabbing.cur" />
+    <Content Include="Tools\masterslider\2.18.2\css\common\grabbing.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\common\loading-1-dark.gif" />
+    <Content Include="Tools\masterslider\2.18.2\css\common\loading-1.gif" />
+    <Content Include="Tools\masterslider\2.18.2\css\common\loading-2-dark.gif" />
+    <Content Include="Tools\masterslider\2.18.2\css\common\loading-2-light.gif" />
+    <Content Include="Tools\masterslider\2.18.2\css\common\loading-2.gif" />
+    <Content Include="Tools\masterslider\2.18.2\css\common\video-close-btn.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\masterslider.main.css" />
+    <Content Include="Tools\masterslider\2.18.2\css\masterslider.main.min.css" />
+    <Content Include="Tools\masterslider\2.18.2\css\ms-skin-sample.css" />
+    <Content Include="Tools\masterslider\2.18.2\css\ms-skin-sample.min.css" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\black-skin-1-retina.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\black-skin-1.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\black-skin-2-retina.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\black-skin-2.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\contrast-skin-retina.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\contrast-skin.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\light-skin-1-retina.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\light-skin-1.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\light-skin-2-retina.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\light-skin-2.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\light-skin-3-retina.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\light-skin-3.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\light-skin-4-retina.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\light-skin-4.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\light-skin-5-retina.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\light-skin-5.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\light-skin-6-retina.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\light-skin-6.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\metro-skin-retina.png" />
+    <Content Include="Tools\masterslider\2.18.2\css\skins\metro-skin.png" />
+    <Content Include="Tools\masterslider\2.18.2\js\masterslider.js" />
+    <Content Include="Tools\masterslider\2.18.2\js\masterslider.min.js" />
+    <Content Include="Tools\select2\css\select2-spinner.gif" />
+    <Content Include="Tools\select2\css\select2.css" />
+    <Content Include="Tools\select2\css\select2.min.css" />
+    <Content Include="Tools\select2\css\select2.png" />
+    <Content Include="Tools\select2\css\select2x2.png" />
+    <Content Include="Tools\select2\js\select2.js" />
+    <Content Include="Tools\select2\js\select2.min.js" />
+    <Content Include="utils\css\consultarUsuario.css" />
+    <Content Include="utils\css\cupertino\images\bckMenu.jpg" />
+    <Content Include="utils\css\cupertino\images\ui-bg_diagonals-thick_90_eeeeee_40x40.png" />
+    <Content Include="utils\css\cupertino\images\ui-bg_flat_15_cd0a0a_40x100.png" />
+    <Content Include="utils\css\cupertino\images\ui-bg_glass_100_e4f1fb_1x400.png" />
+    <Content Include="utils\css\cupertino\images\ui-bg_glass_50_3baae3_1x400.png" />
+    <Content Include="utils\css\cupertino\images\ui-bg_glass_80_d7ebf9_1x400.png" />
+    <Content Include="utils\css\cupertino\images\ui-bg_highlight-hard_100_f2f5f7_1x100.png" />
+    <Content Include="utils\css\cupertino\images\ui-bg_highlight-hard_70_000000_1x100.png" />
+    <Content Include="utils\css\cupertino\images\ui-bg_highlight-soft_100_deedf7_1x100.png" />
+    <Content Include="utils\css\cupertino\images\ui-bg_highlight-soft_25_ffef8f_1x100.png" />
+    <Content Include="utils\css\cupertino\images\ui-icons_2694e8_256x240.png" />
+    <Content Include="utils\css\cupertino\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="utils\css\cupertino\images\ui-icons_3d80b3_256x240.png" />
+    <Content Include="utils\css\cupertino\images\ui-icons_72a7cf_256x240.png" />
+    <Content Include="utils\css\cupertino\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="utils\css\cupertino\images\user_avatar.png" />
+    <Content Include="utils\css\cupertino\jquery-ui-1.7.3.custom.css" />
+    <Content Include="utils\css\index.css" />
+    <Content Include="utils\css\miPropuesta.css" />
+    <Content Include="utils\css\plantillaInterna.css" />
+    <Content Include="utils\css\registrarUsuarios.css" />
+    <Content Include="utils\css\reset.css" />
+    <Content Include="utils\css\styles.css" />
+    <Content Include="utils\css\style_rep.css" />
+    <Content Include="utils\css\__jquery.ui.datepicker.css" />
+    <Content Include="utils\fullcalendar\fullcalendar.css" />
+    <Content Include="utils\fullcalendar\fullcalendar.min.js" />
+    <Content Include="utils\images\bckMenu.jpg" />
+    <Content Include="utils\images\check2.JPG" />
+    <Content Include="utils\images\comunes\loading.gif" />
+    <Content Include="utils\images\fondoBienvenida.jpg" />
+    <Content Include="utils\images\fondoBienvenida.png" />
+    <Content Include="utils\images\icons.png" />
+    <Content Include="utils\images\lock.gif" />
+    <Content Include="utils\images\lock.png" />
+    <Content Include="utils\images\logo.gif" />
+    <Content Include="utils\images\Logo.png" />
+    <Content Include="utils\images\logoShortCut.jpg" />
+    <Content Include="utils\images\logoTransparente.png" />
+    <Content Include="utils\images\nav-tail.gif" />
+    <Content Include="utils\images\PROMANSYS_POSTER2.png" />
+    <Content Include="utils\images\slider\slide1.gif" />
+    <Content Include="utils\images\slider\slide2.gif" />
+    <Content Include="utils\images\system_integration_icon.jpg" />
+    <Content Include="utils\images\unLock.gif" />
+    <Content Include="utils\images\unLock.png" />
+    <Content Include="utils\images\user_avatar.png" />
+    <Content Include="utils\js\Func_Espec\fun_UsuarioPersona.js" />
+    <Content Include="utils\js\fun_general.js" />
+    <Content Include="utils\js\jquery\bootstrap\css\bootstrap.css" />
+    <Content Include="utils\js\jquery\bootstrap\css\bootstrap.min.css" />
+    <Content Include="utils\js\jquery\bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="utils\js\jquery\bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="utils\js\jquery\bootstrap\js\bootstrap.js" />
+    <Content Include="utils\js\jquery\bootstrap\js\bootstrap.min.js" />
+    <Content Include="utils\js\jquery\bxSlider\jquery.bxSlider.min.js" />
+    <Content Include="utils\js\jquery\bxSlider\jquery.easing.1.3.js" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-bg_flat_55_999999_40x100.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-bg_flat_75_aaaaaa_40x100.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-bg_glass_45_0078ae_1x400.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-bg_glass_55_f8da4e_1x400.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-bg_glass_75_79c9ec_1x400.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-bg_gloss-wave_45_e14f1c_500x100.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-bg_gloss-wave_50_edf6e4_500x100.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-bg_gloss-wave_75_2191c0_500x100.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-bg_inset-hard_100_fcfdfd_1x100.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-icons_0078ae_256x240.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-icons_056b93_256x240.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-icons_e0fdff_256x240.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-icons_f5e175_256x240.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-icons_f7a50d_256x240.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\images\ui-icons_fcd113_256x240.png" />
+    <Content Include="utils\js\jquery\jQuertUI\css\jquery-ui-1.9.1.custom.css" />
+    <Content Include="utils\js\jquery\jQuertUI\css\jquery-ui-1.9.1.custom.min.css" />
+    <Content Include="utils\js\jquery\jQuertUI\js\jquery-ui-1.9.1.custom.js" />
+    <Content Include="utils\js\jquery\jQuertUI\js\jquery-ui-1.9.1.custom.min.js" />
+    <Content Include="utils\js\jquery\jquery-1.3.2.min.js" />
+    <Content Include="utils\js\jquery\jquery-ui-1.7.3.custom.min.js" />
+    <Content Include="utils\js\jquery\jquery-ui-timepicker-addon-0.6.2.min.js" />
+    <Content Include="utils\js\jquery\jquery.qtip-1.0.0-rc3.min.js" />
+    <Content Include="utils\js\jquery\jQuery1.8.1.js" />
+    <Content Include="utils\js\jquery\osx.css" />
+    <Content Include="utils\js\jquery\validate\jquery.validate.min.js" />
+    <Content Include="utils\js\jsIframe.js" />
+    <Content Include="utils\js\jsIndex.js" />
+    <Content Include="utils\js\jsPlantillaInterna.js" />
+    <Content Include="utils\js\menu\tinydropdown.css" />
+    <Content Include="utils\js\menu\tinydropdown.js" />
+    <Content Include="utils\js\scripts.js" />
+    <Content Include="utils\scripts\calendarscript.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebServicesApp\WebMethods\ws_Equipo.aspx" />
+    <Content Include="WebServicesApp\WebMethods\ws_Torneo.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administrar_Prueba.aspx.cs">
+      <DependentUpon>Administrar_Prueba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrar_Prueba.aspx.designer.cs">
+      <DependentUpon>Administrar_Prueba.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="appClases\Globales.cs" />
+    <Compile Include="appControles\wucIframe.ascx.cs">
+      <DependentUpon>wucIframe.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="appControles\wucIframe.ascx.designer.cs">
+      <DependentUpon>wucIframe.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="appControles\wucLoading.ascx.cs">
+      <DependentUpon>wucLoading.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="appControles\wucLoading.ascx.designer.cs">
+      <DependentUpon>wucLoading.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="appControles\wucMenu.ascx.cs">
+      <DependentUpon>wucMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="appControles\wucMenu.ascx.designer.cs">
+      <DependentUpon>wucMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="appControles\wucModulos.ascx.cs">
+      <DependentUpon>wucModulos.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="appControles\wucModulos.ascx.designer.cs">
+      <DependentUpon>wucModulos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="appPlantilla\plantillaInterna.Master.cs">
+      <DependentUpon>plantillaInterna.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="appPlantilla\plantillaInterna.Master.designer.cs">
+      <DependentUpon>plantillaInterna.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Asistencia.aspx.cs">
+      <DependentUpon>Asistencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Asistencia.aspx.designer.cs">
+      <DependentUpon>Asistencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BD_AKD_4DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BD_AKD_4DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Calendario\frm_Calendario.aspx.cs">
+      <DependentUpon>frm_Calendario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calendario\frm_Calendario.aspx.designer.cs">
+      <DependentUpon>frm_Calendario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\antropometria\frm_Antropometria.aspx.cs">
+      <DependentUpon>frm_Antropometria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\antropometria\frm_Antropometria.aspx.designer.cs">
+      <DependentUpon>frm_Antropometria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\antropometria\frm_AntropometriaRegistro.aspx.cs">
+      <DependentUpon>frm_AntropometriaRegistro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\antropometria\frm_AntropometriaRegistro.aspx.designer.cs">
+      <DependentUpon>frm_AntropometriaRegistro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\antropometria\frm_ResultadosAntropometria.aspx.cs">
+      <DependentUpon>frm_ResultadosAntropometria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\antropometria\frm_ResultadosAntropometria.aspx.designer.cs">
+      <DependentUpon>frm_ResultadosAntropometria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\antropometria\frm_VerResultadosControles.aspx.cs">
+      <DependentUpon>frm_VerResultadosControles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\antropometria\frm_VerResultadosControles.aspx.designer.cs">
+      <DependentUpon>frm_VerResultadosControles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\antropometria\frm_VerTodosJugadores.aspx.cs">
+      <DependentUpon>frm_VerTodosJugadores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\antropometria\frm_VerTodosJugadores.aspx.designer.cs">
+      <DependentUpon>frm_VerTodosJugadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\Bienvenida.aspx.cs">
+      <DependentUpon>Bienvenida.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\Bienvenida.aspx.designer.cs">
+      <DependentUpon>Bienvenida.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\equipo\frm_EquipoRegistrar.aspx.cs">
+      <DependentUpon>frm_EquipoRegistrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\equipo\frm_EquipoRegistrar.aspx.designer.cs">
+      <DependentUpon>frm_EquipoRegistrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\equipo\frm_VerPlantilla.aspx.cs">
+      <DependentUpon>frm_VerPlantilla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\equipo\frm_VerPlantilla.aspx.designer.cs">
+      <DependentUpon>frm_VerPlantilla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\jugador\frm_JugadorRegistrar.aspx.cs">
+      <DependentUpon>frm_JugadorRegistrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\jugador\frm_JugadorRegistrar.aspx.designer.cs">
+      <DependentUpon>frm_JugadorRegistrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\personal\frm_PersonaRegistrar.aspx.cs">
+      <DependentUpon>frm_PersonaRegistrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\personal\frm_PersonaRegistrar.aspx.designer.cs">
+      <DependentUpon>frm_PersonaRegistrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\principal.aspx.cs">
+      <DependentUpon>principal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\principal.aspx.designer.cs">
+      <DependentUpon>principal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\pruebas\AdmPruebas.aspx.cs">
+      <DependentUpon>AdmPruebas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\pruebas\AdmPruebas.aspx.designer.cs">
+      <DependentUpon>AdmPruebas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\pruebas\frm_JugadorConvocatoriaRegistrar.aspx.cs">
+      <DependentUpon>frm_JugadorConvocatoriaRegistrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\pruebas\frm_JugadorConvocatoriaRegistrar.aspx.designer.cs">
+      <DependentUpon>frm_JugadorConvocatoriaRegistrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\reportes\WebFormReporte.aspx.cs">
+      <DependentUpon>WebFormReporte.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\reportes\WebFormReporte.aspx.designer.cs">
+      <DependentUpon>WebFormReporte.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contenido\temporada\frm_TemporadaRegistrar.aspx.cs">
+      <DependentUpon>frm_TemporadaRegistrar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contenido\temporada\frm_TemporadaRegistrar.aspx.designer.cs">
+      <DependentUpon>frm_TemporadaRegistrar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="exprem.aspx.cs">
+      <DependentUpon>exprem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="exprem.aspx.designer.cs">
+      <DependentUpon>exprem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frmGraficaEctomorfiaxJugador.aspx.cs">
+      <DependentUpon>frmGraficaEctomorfiaxJugador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frmGraficaEctomorfiaxJugador.aspx.designer.cs">
+      <DependentUpon>frmGraficaEctomorfiaxJugador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GraficaEndomorfiaxJugador.aspx.cs">
+      <DependentUpon>frm_GraficaEndomorfiaxJugador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_GraficaEndomorfiaxJugador.aspx.designer.cs">
+      <DependentUpon>frm_GraficaEndomorfiaxJugador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GraficaMesomorfiaxJugador.aspx.cs">
+      <DependentUpon>frm_GraficaMesomorfiaxJugador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_GraficaMesomorfiaxJugador.aspx.designer.cs">
+      <DependentUpon>frm_GraficaMesomorfiaxJugador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Grafica_ResultadosAll.aspx.cs">
+      <DependentUpon>frm_Grafica_ResultadosAll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="frm_Grafica_ResultadosAll.aspx.designer.cs">
+      <DependentUpon>frm_Grafica_ResultadosAll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HelpClasses\HelpV.cs" />
+    <Compile Include="HorarioMenu.aspx.cs">
+      <DependentUpon>HorarioMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HorarioMenu.aspx.designer.cs">
+      <DependentUpon>HorarioMenu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InformeFinal.aspx.cs">
+      <DependentUpon>InformeFinal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InformeFinal.aspx.designer.cs">
+      <DependentUpon>InformeFinal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Model2.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model2.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model2.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarAsistencia.aspx.cs">
+      <DependentUpon>ModificarAsistencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModificarAsistencia.aspx.designer.cs">
+      <DependentUpon>ModificarAsistencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NotaRendimientoDesempeño.aspx.cs">
+      <DependentUpon>NotaRendimientoDesempeño.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NotaRendimientoDesempeño.aspx.designer.cs">
+      <DependentUpon>NotaRendimientoDesempeño.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NotaRendimientoFisico.aspx.cs">
+      <DependentUpon>NotaRendimientoFisico.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NotaRendimientoFisico.aspx.designer.cs">
+      <DependentUpon>NotaRendimientoFisico.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PruebaDesempeño.aspx.cs">
+      <DependentUpon>PruebaDesempeño.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PruebaDesempeño.aspx.designer.cs">
+      <DependentUpon>PruebaDesempeño.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PruebaFisica.aspx.cs">
+      <DependentUpon>PruebaFisica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PruebaFisica.aspx.designer.cs">
+      <DependentUpon>PruebaFisica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PruebaPsicologica.aspx.cs">
+      <DependentUpon>PruebaPsicologica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PruebaPsicologica.aspx.designer.cs">
+      <DependentUpon>PruebaPsicologica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sede2.aspx.cs">
+      <DependentUpon>Sede2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sede2.aspx.designer.cs">
+      <DependentUpon>Sede2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="T_Jugador.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Usp_Grafica_EctomorfiaxJugador2_Result.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Usp_Grafica_EctomorgiaxJugador_Result.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Usp_Grafica_EndomorfiaxJugador_Result.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Usp_Grafica_MesomorfiaxJugador_Result.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Usp_Grafica_ResultadosAll_Result.cs">
+      <DependentUpon>Model2.tt</DependentUpon>
+    </Compile>
+    <Compile Include="WebServicesApp\WebMethods\ws_Equipo.aspx.cs">
+      <DependentUpon>ws_Equipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebServicesApp\WebMethods\ws_Equipo.aspx.designer.cs">
+      <DependentUpon>ws_Equipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebServicesApp\WebMethods\ws_Torneo.aspx.cs">
+      <DependentUpon>ws_Torneo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebServicesApp\WebMethods\ws_Torneo.aspx.designer.cs">
+      <DependentUpon>ws_Torneo.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="utils\fonts\helveticaNeue.woff" />
+    <Content Include="appPlantilla\plantillaInterna.Master" />
+    <Content Include="Tools\Bootstrap\3.3.5\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Tools\Bootstrap\3.3.5\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Tools\Bootstrap\3.3.5\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Tools\Bootstrap\3.3.5\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Tools\Bootstrap\3.3.5\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Tools\Bootstrap\3.3.5\js\bootstrap.min.js.map" />
+    <Content Include="Tools\Bootstrap\3.3.5\js\html5shiv.min.js.map" />
+    <Content Include="Tools\Bootstrap\3.3.5\js\modernizr.2.8.3.min.js.map" />
+    <Content Include="Tools\Bootstrap\3.3.4\css\bootstrap-theme.css.map" />
+    <Content Include="Tools\Bootstrap\3.3.4\css\bootstrap.css.map" />
+    <Content Include="Tools\Bootstrap\3.3.4\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Tools\Bootstrap\3.3.4\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Tools\Bootstrap\3.3.4\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Tools\Bootstrap\3.3.4\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Tools\Bootstrap\3.3.4\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Tools\Bootstrap\3.3.4\js\bootstrap.min.js.map" />
+    <Content Include="Tools\font-awesome\4.3.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="Tools\font-awesome\4.3.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="Tools\font-awesome\4.3.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Tools\font-awesome\4.3.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="Tools\font-awesome\4.3.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Tools\font-awesome\4.3.0\fonts\FontAwesome.otf" />
+    <Content Include="Tools\font-awesome\4.3.0\less\animated.less" />
+    <Content Include="Tools\font-awesome\4.3.0\less\bordered-pulled.less" />
+    <Content Include="Tools\font-awesome\4.3.0\less\core.less" />
+    <Content Include="Tools\font-awesome\4.3.0\less\fixed-width.less" />
+    <Content Include="Tools\font-awesome\4.3.0\less\font-awesome.less" />
+    <Content Include="Tools\font-awesome\4.3.0\less\icons.less" />
+    <Content Include="Tools\font-awesome\4.3.0\less\larger.less" />
+    <Content Include="Tools\font-awesome\4.3.0\less\list.less" />
+    <Content Include="Tools\font-awesome\4.3.0\less\mixins.less" />
+    <Content Include="Tools\font-awesome\4.3.0\less\path.less" />
+    <Content Include="Tools\font-awesome\4.3.0\less\rotated-flipped.less" />
+    <Content Include="Tools\font-awesome\4.3.0\less\stacked.less" />
+    <Content Include="Tools\font-awesome\4.3.0\less\variables.less" />
+    <Content Include="Tools\font-awesome\4.3.0\scss\font-awesome.scss" />
+    <Content Include="Tools\font-awesome\4.3.0\scss\_animated.scss" />
+    <Content Include="Tools\font-awesome\4.3.0\scss\_bordered-pulled.scss" />
+    <Content Include="Tools\font-awesome\4.3.0\scss\_core.scss" />
+    <Content Include="Tools\font-awesome\4.3.0\scss\_fixed-width.scss" />
+    <Content Include="Tools\font-awesome\4.3.0\scss\_icons.scss" />
+    <Content Include="Tools\font-awesome\4.3.0\scss\_larger.scss" />
+    <Content Include="Tools\font-awesome\4.3.0\scss\_list.scss" />
+    <Content Include="Tools\font-awesome\4.3.0\scss\_mixins.scss" />
+    <Content Include="Tools\font-awesome\4.3.0\scss\_path.scss" />
+    <Content Include="Tools\font-awesome\4.3.0\scss\_rotated-flipped.scss" />
+    <Content Include="Tools\font-awesome\4.3.0\scss\_stacked.scss" />
+    <Content Include="Tools\font-awesome\4.3.0\scss\_variables.scss" />
+    <Content Include="Tools\jquery\jquery-1.9.1.min.js.map" />
+    <Content Include="Tools\jquery\jquery.easing.1.3.min.js.map" />
+    <Content Include="Tools\jquery\ui\1.10.4\jquery-ui.custom.min.js.map" />
+    <Content Include="Tools\masterslider\2.18.2\js\masterslider.min.js.map" />
+    <Content Include="Tools\select2\js\select2.min.js.map" />
+    <Content Include="css\__jquery.ui.datepicker.css" />
+    <Content Include="BD_AKD_4DataSet.xsc">
+      <DependentUpon>BD_AKD_4DataSet.xsd</DependentUpon>
+    </Content>
+    <None Include="BD_AKD_4DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BD_AKD_4DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Content Include="BD_AKD_4DataSet.xss">
+      <DependentUpon>BD_AKD_4DataSet.xsd</DependentUpon>
+    </Content>
+    <Content Include="packages.config" />
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+    </Content>
+    <EntityDeploy Include="Model2.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model2.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Model2.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model2.edmx</DependentUpon>
+      <LastGenOutput>Model2.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Model2.edmx.diagram">
+      <DependentUpon>Model2.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model2.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model2.edmx</DependentUpon>
+      <LastGenOutput>Model2.cs</LastGenOutput>
+    </Content>
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\css\bootstrap-theme.css.map" />
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\css\bootstrap.css.map" />
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Calendario\css\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\css\bootstrap-theme.css.map" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\css\bootstrap.css.map" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.4\js\bootstrap.min.js.map" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\js\bootstrap.min.js.map" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\js\html5shiv.min.js.map" />
+    <Content Include="Calendario\Tools\Bootstrap\3.3.5\js\modernizr.2.8.3.min.js.map" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\fonts\FontAwesome.otf" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\less\animated.less" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\less\bordered-pulled.less" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\less\core.less" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\less\fixed-width.less" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\less\font-awesome.less" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\less\icons.less" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\less\larger.less" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\less\list.less" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\less\mixins.less" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\less\path.less" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\less\rotated-flipped.less" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\less\stacked.less" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\less\variables.less" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\scss\font-awesome.scss" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\scss\_animated.scss" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\scss\_bordered-pulled.scss" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\scss\_core.scss" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\scss\_fixed-width.scss" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\scss\_icons.scss" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\scss\_larger.scss" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\scss\_list.scss" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\scss\_mixins.scss" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\scss\_path.scss" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\scss\_rotated-flipped.scss" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\scss\_stacked.scss" />
+    <Content Include="Calendario\Tools\font-awesome\4.3.0\scss\_variables.scss" />
+    <Content Include="Calendario\Tools\jquery\jquery-1.9.1.min.js.map" />
+    <Content Include="Calendario\Tools\jquery\jquery.easing.1.3.min.js.map" />
+    <Content Include="Calendario\Tools\jquery\ui\1.10.4\jquery-ui.custom.min.js.map" />
+    <Content Include="Calendario\Tools\masterslider\2.18.2\js\masterslider.min.js.map" />
+    <Content Include="Calendario\Tools\select2\js\select2.min.js.map" />
+    <Content Include="Calendario\JsonResponse.ashx" />
+    <Content Include="JsonResponse.ashx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="utils\js\jquery\fancyBox\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Comunes\Comunes.csproj">
+      <Project>{0a59bcda-8372-43a4-a3b1-66f3afc55a00}</Project>
+      <Name>Comunes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CTR\CTR.csproj">
+      <Project>{bbf465dc-6ad7-4a17-b654-9fb100f27818}</Project>
+      <Name>CTR</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAO\DAO.csproj">
+      <Project>{6c7780a3-f603-4db3-a3b4-5075c6d3f848}</Project>
+      <Name>DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{211cb14b-a3ab-44fc-b626-5c98c9663105}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="contenido\reportes\Report1.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>31721</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:31721/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

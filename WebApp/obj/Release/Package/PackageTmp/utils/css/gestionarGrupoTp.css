@@ -1,0 +1,4 @@
+﻿#wrapperPropuesta{width:800px;margin:0 auto;font-family:Calibri;font-size:12px;}
+#wrapperPropuesta .wrapOpciones{width:780px;float:left;overflow:hidden;margin:0 auto;font-family:Calibri;font-size:12px;padding:0px 10px 0px 10px;}
+#wrapperPropuesta .wrapOpciones .itemOpcion{width:260px;float:left;overflow:hidden;}
+#wrapperPropuesta .wrapContenido{width:780px;float:left;overflow:hidden;margin:0 auto;font-family:Calibri;font-size:12px;padding:0px 10px 0px 10px;}

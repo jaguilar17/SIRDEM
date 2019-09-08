@@ -1,0 +1,69 @@
+C:\Users\Tony\Desktop\Modelo_1\DTO\bin\Debug\DTO.dll
+C:\Users\Tony\Desktop\Modelo_1\DTO\bin\Debug\DTO.pdb
+C:\Users\Tony\Desktop\Modelo_1\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Tony\Desktop\Modelo_1\DTO\obj\Debug\DTO.dll
+C:\Users\Tony\Desktop\Modelo_1\DTO\obj\Debug\DTO.pdb
+F:\Nestor 2\universidad\TP4\TP_AKD\AKDsystem_v02\Modelo_1\DTO\bin\Debug\DTO.dll
+F:\Nestor 2\universidad\TP4\TP_AKD\AKDsystem_v02\Modelo_1\DTO\bin\Debug\DTO.pdb
+F:\Nestor 2\universidad\TP4\TP_AKD\AKDsystem_v02\Modelo_1\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+F:\Nestor 2\universidad\TP4\TP_AKD\AKDsystem_v02\Modelo_1\DTO\obj\Debug\DTO.dll
+F:\Nestor 2\universidad\TP4\TP_AKD\AKDsystem_v02\Modelo_1\DTO\obj\Debug\DTO.pdb
+C:\Users\Tony\Desktop\AKDsystem_v02\Modelo_1\DTO\bin\Debug\DTO.dll
+C:\Users\Tony\Desktop\AKDsystem_v02\Modelo_1\DTO\bin\Debug\DTO.pdb
+C:\Users\Tony\Desktop\AKDsystem_v02\Modelo_1\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Tony\Desktop\AKDsystem_v02\Modelo_1\DTO\obj\Debug\DTO.dll
+C:\Users\Tony\Desktop\AKDsystem_v02\Modelo_1\DTO\obj\Debug\DTO.pdb
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_3erEntregable\Progra-181015\Modelo_1\DTO\bin\Debug\DTO.dll
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_3erEntregable\Progra-181015\Modelo_1\DTO\bin\Debug\DTO.pdb
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_3erEntregable\Progra-181015\Modelo_1\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_3erEntregable\Progra-181015\Modelo_1\DTO\obj\Debug\DTO.dll
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_3erEntregable\Progra-181015\Modelo_1\DTO\obj\Debug\DTO.pdb
+C:\Users\Administrador\Desktop\Web_AKD\Modelo_1\DTO\bin\Debug\DTO.dll
+C:\Users\Administrador\Desktop\Web_AKD\Modelo_1\DTO\bin\Debug\DTO.pdb
+C:\Users\Administrador\Desktop\Web_AKD\Modelo_1\DTO\obj\Debug\DTO.dll
+C:\Users\Administrador\Desktop\Web_AKD\Modelo_1\DTO\obj\Debug\DTO.pdb
+C:\Users\HUGO\Downloads\Modelo_1\DTO\bin\Debug\DTO.dll
+C:\Users\HUGO\Downloads\Modelo_1\DTO\bin\Debug\DTO.pdb
+C:\Users\HUGO\Downloads\Modelo_1\DTO\obj\Debug\DTO.dll
+C:\Users\HUGO\Downloads\Modelo_1\DTO\obj\Debug\DTO.pdb
+C:\Users\HUGO\Downloads\Modelo_1\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.dll
+C:\Users\Administrador\Desktop\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.pdb
+C:\Users\Administrador\Desktop\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.dll
+C:\Users\Administrador\Desktop\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.pdb
+C:\Users\Tony\Desktop\tpppp\Progra_BD\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.dll
+C:\Users\Tony\Desktop\tpppp\Progra_BD\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.pdb
+C:\Users\Tony\Desktop\tpppp\Progra_BD\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.dll
+C:\Users\Tony\Desktop\tpppp\Progra_BD\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.pdb
+C:\Users\Tony\Desktop\tpppp\Progra_BD\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\clases\AKD_TP_Ultimo\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.dll
+D:\clases\AKD_TP_Ultimo\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.pdb
+D:\clases\AKD_TP_Ultimo\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\clases\AKD_TP_Ultimo\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.dll
+D:\clases\AKD_TP_Ultimo\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.pdb
+C:\Users\Tony\Desktop\AKD_25112015_Nov\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.dll
+C:\Users\Tony\Desktop\AKD_25112015_Nov\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.pdb
+C:\Users\Tony\Desktop\AKD_25112015_Nov\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.dll
+C:\Users\Tony\Desktop\AKD_25112015_Nov\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.pdb
+C:\Users\Administrador\Desktop\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.dll
+C:\Users\Administrador\Desktop\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.pdb
+C:\Users\Administrador\Desktop\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.dll
+C:\Users\Administrador\Desktop\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.pdb
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.dll
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.pdb
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.dll
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.pdb
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\JOSE\URP\TESIS\TITES\Tesis Tony\ProgramacionFinal\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.dll
+D:\JOSE\URP\TESIS\TITES\Tesis Tony\ProgramacionFinal\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.pdb
+D:\JOSE\URP\TESIS\TITES\Tesis Tony\ProgramacionFinal\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\JOSE\URP\TESIS\TITES\Tesis Tony\ProgramacionFinal\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.dll
+D:\JOSE\URP\TESIS\TITES\Tesis Tony\ProgramacionFinal\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.pdb
+C:\Users\JOSE\Desktop\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.dll
+C:\Users\JOSE\Desktop\Progra_4entre_Calenda_\Modelo_1\DTO\bin\Debug\DTO.pdb
+C:\Users\JOSE\Desktop\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+C:\Users\JOSE\Desktop\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\JOSE\Desktop\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.dll
+C:\Users\JOSE\Desktop\Progra_4entre_Calenda_\Modelo_1\DTO\obj\Debug\DTO.pdb

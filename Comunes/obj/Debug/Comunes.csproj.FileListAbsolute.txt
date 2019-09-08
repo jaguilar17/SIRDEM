@@ -1,0 +1,64 @@
+C:\Users\Tony\Desktop\Modelo_1\Comunes\bin\Debug\Comunes.dll
+C:\Users\Tony\Desktop\Modelo_1\Comunes\bin\Debug\Comunes.pdb
+C:\Users\Tony\Desktop\Modelo_1\Comunes\obj\Debug\Comunes.csprojResolveAssemblyReference.cache
+C:\Users\Tony\Desktop\Modelo_1\Comunes\obj\Debug\Comunes.dll
+C:\Users\Tony\Desktop\Modelo_1\Comunes\obj\Debug\Comunes.pdb
+F:\Nestor 2\universidad\TP4\TP_AKD\AKDsystem_v02\Modelo_1\Comunes\bin\Debug\Comunes.dll
+F:\Nestor 2\universidad\TP4\TP_AKD\AKDsystem_v02\Modelo_1\Comunes\bin\Debug\Comunes.pdb
+F:\Nestor 2\universidad\TP4\TP_AKD\AKDsystem_v02\Modelo_1\Comunes\obj\Debug\Comunes.csprojResolveAssemblyReference.cache
+F:\Nestor 2\universidad\TP4\TP_AKD\AKDsystem_v02\Modelo_1\Comunes\obj\Debug\Comunes.dll
+F:\Nestor 2\universidad\TP4\TP_AKD\AKDsystem_v02\Modelo_1\Comunes\obj\Debug\Comunes.pdb
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_2doEntregable\AKDsystem_v02\Modelo_1\Comunes\bin\Debug\Comunes.dll
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_2doEntregable\AKDsystem_v02\Modelo_1\Comunes\bin\Debug\Comunes.pdb
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_2doEntregable\AKDsystem_v02\Modelo_1\Comunes\obj\Debug\Comunes.csprojResolveAssemblyReference.cache
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_2doEntregable\AKDsystem_v02\Modelo_1\Comunes\obj\Debug\Comunes.dll
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_2doEntregable\AKDsystem_v02\Modelo_1\Comunes\obj\Debug\Comunes.pdb
+C:\Users\Tony\Desktop\AKDsystem_v02\Modelo_1\Comunes\bin\Debug\Comunes.dll
+C:\Users\Tony\Desktop\AKDsystem_v02\Modelo_1\Comunes\bin\Debug\Comunes.pdb
+C:\Users\Tony\Desktop\AKDsystem_v02\Modelo_1\Comunes\obj\Debug\Comunes.csprojResolveAssemblyReference.cache
+C:\Users\Tony\Desktop\AKDsystem_v02\Modelo_1\Comunes\obj\Debug\Comunes.dll
+C:\Users\Tony\Desktop\AKDsystem_v02\Modelo_1\Comunes\obj\Debug\Comunes.pdb
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_3erEntregable\Progra-181015\Modelo_1\Comunes\bin\Debug\Comunes.dll
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_3erEntregable\Progra-181015\Modelo_1\Comunes\bin\Debug\Comunes.pdb
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_3erEntregable\Progra-181015\Modelo_1\Comunes\obj\Debug\Comunes.csprojResolveAssemblyReference.cache
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_3erEntregable\Progra-181015\Modelo_1\Comunes\obj\Debug\Comunes.dll
+F:\Ciclo 2015-II\Taller de Gerencia\TP_AKDSystem\AKDSystem_3erEntregable\Progra-181015\Modelo_1\Comunes\obj\Debug\Comunes.pdb
+C:\Users\Administrador\Desktop\Web_AKD\Modelo_1\Comunes\bin\Debug\Comunes.dll
+C:\Users\Administrador\Desktop\Web_AKD\Modelo_1\Comunes\bin\Debug\Comunes.pdb
+C:\Users\Administrador\Desktop\Web_AKD\Modelo_1\Comunes\obj\Debug\Comunes.dll
+C:\Users\Administrador\Desktop\Web_AKD\Modelo_1\Comunes\obj\Debug\Comunes.pdb
+C:\Users\Administrador\Desktop\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.dll
+C:\Users\Administrador\Desktop\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.pdb
+C:\Users\Administrador\Desktop\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.dll
+C:\Users\Administrador\Desktop\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.pdb
+C:\Users\Tony\Desktop\tpppp\Progra_BD\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.dll
+C:\Users\Tony\Desktop\tpppp\Progra_BD\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.pdb
+C:\Users\Tony\Desktop\tpppp\Progra_BD\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.dll
+C:\Users\Tony\Desktop\tpppp\Progra_BD\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.pdb
+C:\Users\Tony\Desktop\AKD_25112015_Nov\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.dll
+C:\Users\Tony\Desktop\AKD_25112015_Nov\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.pdb
+C:\Users\Tony\Desktop\AKD_25112015_Nov\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.csprojResolveAssemblyReference.cache
+C:\Users\Tony\Desktop\AKD_25112015_Nov\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.dll
+C:\Users\Tony\Desktop\AKD_25112015_Nov\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.pdb
+C:\Users\Administrador\Desktop\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.dll
+C:\Users\Administrador\Desktop\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.pdb
+C:\Users\Administrador\Desktop\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.dll
+C:\Users\Administrador\Desktop\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.pdb
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.dll
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.pdb
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.dll
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.pdb
+D:\JOSE\URP\TESIS\TITES\Tesis Tony\ProgramacionFinal\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.dll
+D:\JOSE\URP\TESIS\TITES\Tesis Tony\ProgramacionFinal\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.pdb
+D:\JOSE\URP\TESIS\TITES\Tesis Tony\ProgramacionFinal\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.csprojAssemblyReference.cache
+D:\JOSE\URP\TESIS\TITES\Tesis Tony\ProgramacionFinal\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.csproj.CoreCompileInputs.cache
+D:\JOSE\URP\TESIS\TITES\Tesis Tony\ProgramacionFinal\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.dll
+D:\JOSE\URP\TESIS\TITES\Tesis Tony\ProgramacionFinal\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.pdb
+C:\Users\JOSE\Desktop\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.dll
+C:\Users\JOSE\Desktop\Progra_4entre_Calenda_\Modelo_1\Comunes\bin\Debug\Comunes.pdb
+C:\Users\JOSE\Desktop\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.csprojAssemblyReference.cache
+C:\Users\JOSE\Desktop\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.csproj.CoreCompileInputs.cache
+C:\Users\JOSE\Desktop\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.dll
+C:\Users\JOSE\Desktop\Progra_4entre_Calenda_\Modelo_1\Comunes\obj\Debug\Comunes.pdb

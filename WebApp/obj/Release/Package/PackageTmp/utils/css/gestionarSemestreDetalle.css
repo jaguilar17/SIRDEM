@@ -1,0 +1,7 @@
+﻿#wrapperUsuario{width:800px;margin:0 auto;font-family:Calibri;}
+#wrapperUsuario .linea{float:left;width:400px;margin-bottom:15px;}
+#wrapperUsuario .linea .titulo{float:left;font-size:16px;width:400px;text-align:left;margin-right:5px;margin-top:5px;}
+#wrapperUsuario .linea .titulo2{float:left;font-size:16px;width:100px;text-align:right;margin-right:5px;margin-top:5px;}
+#wrapperUsuario .linea .campo{float:left;font-size:12px;width:260px;border:1px solid #ccc;border-radius:4px;margin:0px;}
+#wrapperUsuario .lineaBotones{float:left;width:800px;}
+#wrapperUsuario .linea .errorMessage{width:200px;float:right;text-align:right;font-size:10px;color:Red;height:10px;}

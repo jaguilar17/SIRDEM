@@ -1,0 +1,14 @@
+C:\Users\HUGO\Downloads\Modelo_1\DAO\bin\Release\DAO.dll
+C:\Users\HUGO\Downloads\Modelo_1\DAO\bin\Release\DAO.pdb
+C:\Users\HUGO\Downloads\Modelo_1\DAO\bin\Release\DTO.dll
+C:\Users\HUGO\Downloads\Modelo_1\DAO\bin\Release\DTO.pdb
+C:\Users\HUGO\Downloads\Modelo_1\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+C:\Users\HUGO\Downloads\Modelo_1\DAO\obj\Release\DAO.dll
+C:\Users\HUGO\Downloads\Modelo_1\DAO\obj\Release\DAO.pdb
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DAO\bin\Release\DAO.dll
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DAO\bin\Release\DAO.pdb
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DAO\bin\Release\DTO.dll
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DAO\bin\Release\DTO.pdb
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DAO\obj\Release\DAO.dll
+E:\urp\USB-Plomo-Llave\AKD_26112015_Nov_3am\AKDSystem6_5toentregable\Progra_4entre_Calenda_\Progra_4entre_Calenda_\Modelo_1\DAO\obj\Release\DAO.pdb

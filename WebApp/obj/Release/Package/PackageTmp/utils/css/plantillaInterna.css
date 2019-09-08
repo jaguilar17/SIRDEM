@@ -1,0 +1,37 @@
+﻿#wrapperPrincipal{width:100%;font-family:Calibri;}
+#wrapMenu{height:42px;border:1px solid #ccc;padding:5px 0px 5px 5px;box-shadow: 0px 1px 4px #ccc;background-image:url("../images/bckMenu.jpg");color:#C1DCE7;overflow:hidden;}
+#wrapMenu .iconLogo{float:left;overflow:hidden;margin-left:20px;}
+#wrapMenu .iconLogo .logoSis{height:38px;}
+#wrapMenu .opciones{float:right;overflow:hidden;}
+#wrapMenu .opciones .mensajes{float:left;overflow:hidden;margin-right:10px;margin-top:10px;cursor:pointer;}
+#wrapMenu .opciones .calendario{float:left;overflow:hidden;margin-right:10px;margin-top:10px;cursor:pointer;}
+#userMenu{float:left;overflow:hidden;margin-right:35px;margin-top:10px;}
+#btnUser{float:left;overflow:hidden;cursor:pointer;}
+#btnUser .icon{float:left;overflow:hidden;width:20px;height:20px;background-image:url("../images/user_avatar.png");margin-right:7px;}
+#btnUser .userName{float:left;overflow:hidden;}
+#wrapMenu .opciones .mensajes:hover,#wrapMenu .opciones .calendario:hover,#btnUser:hover{color:#fff;}
+
+#wrapOpcionesUser{position:absolute;border:1px solid #ccc;right:20px;margin-top:2px;margin-top:40px;padding:10px;border-radius:4px;display:none;background-color:#fff;box-shadow:0px 0px 20px #ccc;float:left;overflow:hidden;width:126px;}
+#wrapOpcionesUser > div{padding:5px;width:116px;float:left;overflow:hidden;}
+#wrapOpcionesUser > div > a{text-decoration:none;color:#999;width:126px;float:left;overflow:hidden;}
+#wrapOpcionesUser > div:hover{background-color:#3993BA;color:White;border-radius:4px;cursor:pointer;}
+#wrapOpcionesUser > div:hover > a {color:#fff;}
+
+#wrapOpciones{float:left;overflow:hidden;box-shadow:0px 0px 10px #ccc;}
+#wrapOpciones .wrapper{float:left;overflow:hidden;padding:0px;margin:0px;width:240px;}
+#wrapOpciones .wrapper .itemList{float:left;overflow:hidden;list-style:none;width:239px;border-right:1px solid #ccc;border-top:1px solid #ccc;cursor:pointer;}
+#wrapOpciones .wrapper .itemList:last-child{border-bottom:1px solid #ccc;}
+#wrapOpciones .wrapper .itemList .buttonItem{float:left;overflow:hidden;border-color: #CCC;border-style: solid;border-width: 0 0 1px;box-shadow: inset 0px 1px 0px 0px #ECECEC;background-color:#E0E0E0;color:#222;}
+#wrapOpciones .wrapper .itemList .buttonItem .item{float:left;overflow:hidden;padding:10px;width:219px;}
+#wrapOpciones .wrapper .itemList .buttonItem .item .icon{float:left;width:14px;height:14px;background-image:url("../images/icons.png");background-repeat:no-repeat;margin-right:5px;}
+#wrapOpciones .wrapper .itemList .modulos{float:left;overflow:hidden;background-color:#fff;width:220px;padding:10px;font-size:14px;cursor:pointer;display:none;}
+#wrapOpciones .wrapper .itemList .modulos .modulo{float:left;overflow:hidden;width:200px;padding:5px;border-radius:5px;font-size:13px;padding:5px 10px;}
+#wrapOpciones .wrapper .itemList .modulos .modulo:hover{background-color:#EDECEC;}
+.iconoModulos{background-position:-240px 0;}
+.iconoUsuario{background-position:-168px 0;}
+.iconoProyecto{background-position:-431px -143px;}
+
+#wrapperGeneralForm{float:left;overflow:hidden;width:100%;}
+#wrapIframe{padding:10px 0px 0px 5px;max-width:1109px;overflow:hidden;height:1000px;}
+#breadcrumb{float:left;overflow:hidden;width:100%;border-bottom:1px solid #1AA5C7;font-size:18px;color:black;margin-bottom:10px;}
+#iFVentana{border:0px;float:left;overflow:visible;border-bottom:1px solid #ccc;margin-bottom:10px;padding-bottom:10px;}

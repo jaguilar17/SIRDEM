@@ -1,0 +1,17 @@
+﻿#wrapper{width:800px;margin:0 auto;font-family:Calibri;font-size:12px;}
+#wrapper .wrapOpciones{width:780px;float:left;overflow:hidden;margin:0 auto;font-family:Calibri;font-size:12px;padding:0px 10px 0px 10px;}
+#wrapper .wrapOpciones .itemOpcion{width:260px;float:left;overflow:hidden;}
+#wrapper .wrapContenido{width:780px;float:left;overflow:hidden;margin:0 auto;font-family:Calibri;font-size:12px;padding:0px 10px 0px 10px;}
+
+#wrapper .wrapContenido .lineaCabecera{width:780px;float:left;overflow:hidden;background-color:#1E83C4;color:White;font-size:13px;text-align:center;font-weight:700;border-radius:5px 5px 0px 0px;}
+#wrapper .wrapContenido .lineaCabecera .semestre{width:260px;float:left;overflow:hidden;padding:5px 0px;}
+#wrapper .wrapContenido .lineaCabecera .estado{width:260px;float:left;overflow:hidden;padding:5px 0px;}
+#wrapper .wrapContenido .lineaCabecera .activo{width:260px;float:left;overflow:hidden;padding:5px 0px;}
+
+#wrapper .wrapContenido .linea{width:780px;float:left;overflow:hidden;border-right:1px solid #ccc;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}
+#wrapper .wrapContenido .linea .semestre{width:260px;float:left;overflow:hidden;padding:5px 0px;text-align:center;}
+#wrapper .wrapContenido .linea .estado{width:260px;float:left;overflow:hidden;padding:5px 0px;text-align:center;}
+#wrapper .wrapContenido .linea .activo{width:260px;float:left;overflow:hidden;padding:5px 0px;text-align:center;}
+#wrapper .wrapContenido .linea:hover{background-color:#ccc;cursor:pointer;}
+#wrapper .wrapContenido .linea:last-child{border-radius:0px 0px 5px 5px;}
+.boton{float:right;}

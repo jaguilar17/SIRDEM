@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BD_AKD_4Model.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="BD_AKD_4ModelStoreContainer">
+    <EntitySet Name="T_Jugador" EntityType="BD_AKD_4Model.Store.T_Jugador" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="T_Jugador">
+    <Key>
+      <PropertyRef Name="codJugador" />
+    </Key>
+    <Property Name="codJugador" Type="char" Nullable="false" MaxLength="9" />
+    <Property Name="aliasDeportivo" Type="varchar" MaxLength="50" />
+    <Property Name="numDorsal" Type="int" />
+    <Property Name="clubProcedencia" Type="varchar" MaxLength="50" />
+    <Property Name="lateralidad" Type="char" MaxLength="1" />
+    <Property Name="posicionPrincipal" Type="varchar" MaxLength="4" />
+    <Property Name="posicionAlternativa" Type="varchar" MaxLength="4" />
+    <Property Name="pesoInicial" Type="decimal" Precision="4" Scale="2" />
+    <Property Name="tallaInicial" Type="decimal" Precision="4" Scale="2" />
+    <Property Name="anio" Type="char" MaxLength="4" />
+    <Property Name="mes" Type="char" MaxLength="2" />
+    <Property Name="codUsuario" Type="char" MaxLength="9" />
+    <Property Name="codEquipo" Type="varchar" MaxLength="4" />
+    <Property Name="jugadorFechaNac" Type="datetime" />
+  </EntityType>
+  <Function Name="Usp_Grafica_EctomorfiaFechas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Usp_Grafica_EctomorfiaxJugador2" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="codJugador" Type="char" Mode="In" />
+  </Function>
+  <Function Name="Usp_Grafica_EctomorgiaxJugador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Usp_Grafica_EndomorfiaxJugador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Usp_Grafica_MesomorfiaxJugador" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="Usp_Grafica_ResultadosAll" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+</Schema>
