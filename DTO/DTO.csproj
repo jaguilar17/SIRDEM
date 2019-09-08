@@ -46,6 +46,7 @@
     <Compile Include="BE_Prueba.cs" />
     <Compile Include="BE_PS.cs" />
     <Compile Include="CalendarEvent.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="DTO_JugadorConvocatoria.cs" />
     <Compile Include="ImproperCalendarEvent.cs" />
     <Compile Include="ClassResult.cs" />
