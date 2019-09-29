@@ -17,5 +17,10 @@ namespace DTO
         public Boolean IB_Mostrar { get; set; }
         public String codTemporada { get; set; }
         public String temporadaNombre { get; set; }
+
+        public String idSede { get; set; }
+        public String SedeDistrito { get; set; }
+        public String SedeNombre { get; set; }
+
     }
 }

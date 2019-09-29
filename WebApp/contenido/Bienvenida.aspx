@@ -44,6 +44,19 @@
             });
         });
     </script>
+
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+    <script type = "text/javascript">
+    function ShowTeam() {
+        window.location.href  = "~/contenido/equipo/frm_VerPlantilla.aspx?codEquipo=0006";
+    }
+    function OnSuccess(response) {
+        alert(response.d);
+    }
+    </script>
+
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -78,12 +91,15 @@
         </div>
 <br/>
 <div class="panel panel-default slideInRight animate" style="padding:5px">
-        <h1 style="text-align:center">SEDE CERCADO DE LIMA </h1> 
-        <h2 style="text-align:center">Colegio Hipolito Unanue </h2>
+        <h1 style="text-align:center"><asp:Label ID="lblDistrito1" runat="server"></asp:Label> </h1> 
+        <h2 style="text-align:center"><asp:Label ID="lblSede1" runat="server"></asp:Label> </h2>
         
         <div class="row">
             
-            <div class="col-sm-4">
+            <asp:Literal ID="ltlSede1" runat="server"></asp:Literal>
+
+
+            <%--<div class="col-sm-4">
                 <div class="row">
                     <div class="col-sm-12 text-center">
                         <div class="panel panel-default slideInLeft animate">
@@ -130,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>--%>
         </div>
         <!--/row-->
 </div>
@@ -148,7 +164,7 @@
                             <div class="panel-body">
                                 <p>DT - Jose Aguilar</p>
                                 <hr>
-                                <asp:Button ID="btnVerListado4" Text="Ver Plantilla" style="width:100%" runat="server" /> 
+                                <asp:Button ID="btnVerListado4" Text="Ver Plantilla" style="width:100%" runat="server" OnClick="btnVerListado4_Click" /> 
                                 <hr>
                             </div>
                         </div>

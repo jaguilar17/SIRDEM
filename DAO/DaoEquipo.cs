@@ -235,6 +235,41 @@ namespace DAO
             }
             return cr;
         }
+
+        public ClassResultV sp_SelectAllEquipoActive()
+        {
+            ClassResultV cr = new ClassResultV();
+            var pr = new SqlParameter[1];
+            try
+            {
+                
+                SqlDataReader reader = SqlHelper.ExecuteReader(objCn, CommandType.StoredProcedure, "sp_SelectAllEquipoActive");
+                cr.List = new List<DtoB>();
+                while (reader.Read())
+                {
+                    DtoEquipo dtoE = new DtoEquipo();
+                    dtoE.codEquipo = getValue("codEquipo", reader).Value_String;
+                    dtoE.equipoNombre = getValue("equipoNombre", reader).Value_String;
+                    dtoE.equipoDirectorTecnico = getValue("equipoDirectorTecnico", reader).Value_String;
+                    dtoE.idSede = getValue("idSede", reader).Value_String;
+                    dtoE.SedeDistrito = getValue("SedeDistrito", reader).Value_String;
+                    dtoE.SedeNombre = getValue("SedeNombre", reader).Value_String;
+                    dtoE.temporadaNombre = getValue("temporadaNombre", reader).Value_String;
+                    cr.List.Add(dtoE);
+                }
+            }
+            catch (Exception ex)
+            {
+                cr.DT = null;
+                cr.LugarError = ex.StackTrace;
+                cr.ErrorEx = ex.Message;
+                cr.ErrorMsj = "Error al consultar equipos";
+            }
+            objCn.Close();
+            return cr;
+        }
+
+
         /*
        
 

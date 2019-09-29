@@ -31,31 +31,31 @@ namespace WebApp.contenido {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// btnVerListado control.
+        /// lblDistrito1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnVerListado;
+        protected global::System.Web.UI.WebControls.Label lblDistrito1;
         
         /// <summary>
-        /// btnVerListado2 control.
+        /// lblSede1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnVerListado2;
+        protected global::System.Web.UI.WebControls.Label lblSede1;
         
         /// <summary>
-        /// btnVerListado3 control.
+        /// ltlSede1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnVerListado3;
+        protected global::System.Web.UI.WebControls.Literal ltlSede1;
         
         /// <summary>
         /// btnVerListado4 control.

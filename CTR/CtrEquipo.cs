@@ -34,6 +34,12 @@ namespace CTR
         {
             return new DaoEquipo().Usp_EstadoEquipoByCupos_Update(dtoBase);
         }
+
+        public ClassResultV sp_SelectAllEquipoActive()
+        {
+            return new DaoEquipo().sp_SelectAllEquipoActive();
+        }
+
         /*
         public ClassResultV Usp_EquipoClub_GetAll(TipoCons tip)
         {

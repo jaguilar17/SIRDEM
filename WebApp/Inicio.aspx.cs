@@ -36,6 +36,34 @@ namespace WebApp
         Hashtable TemporadaList;
         protected void Page_Load(object sender, EventArgs e)
         {
+
+            int cont = 0;
+            int top = 5;
+            string Imprimir = string.Empty;
+            for (int n=0; n<=5; n++)
+            {
+                 Imprimir += @" <div class=""col-sm-4"">
+                    < div class=""row"">
+                    <div class=""col-sm-12 text-center"">
+                        <div class=""panel panel-default slideInLeft animate"">
+                            <div class=""panel-heading"">
+                            <h3>Categoria 2002</h3></div>
+                            <div class=""panel-body"">
+                                <p>DT - Jose Aguilar</p>
+                                <hr>
+                                <asp:Button ID = ""btnVerListado"" Text= ""Ver Plantilla"" style= ""width:100%"" runat= ""server"" OnClick= ""btnVerListado_Click" + cont +'"'+ @" />
+                                < hr >
+                            </ div >
+                        </ div >
+                    </ div >
+                </ div >
+            </ div >"
+           ;
+                cont++;
+
+            }
+
+
             ConvocatoriaList = GetConvocatorias();
             TemporadaList = GetTemporadas();
             //Calendar1.Caption = "Calender - Author: Puran Singh Mehra";
